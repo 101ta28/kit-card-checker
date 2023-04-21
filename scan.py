@@ -25,7 +25,7 @@ def on_connect(tag):
                     card_id = card_id[1:]
                 dt_now = datetime.now()
                 print(str(dt_now))
-                print(f"Student ID: {card_id}")
+                print(f"ID: {card_id}")
                 print("準備中...")
                 sleep(1)
                 print("準備完了")
